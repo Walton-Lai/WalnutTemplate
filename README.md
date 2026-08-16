@@ -12,6 +12,10 @@ using namespace std;
     using vll  = vector<ll>;
     using vpii = vector<pii>;
     using vpll = vector<pll>;
+    using mii = map<int, int>;
+    using sii = set<int>;
+    using xmii = unordered_map<int, int>;
+    using xsii = unordered_set<int, int>;
 // misc
     #define pb          push_back
     #define two(i)      1 << i 
@@ -22,8 +26,8 @@ using namespace std;
     #define FOR(i, a, b)    for (int i = (a); i < (b); i++)
     // go from b-1 to a (reversed)
     #define ROF(i, a, b)    for (int i = (b) - 1; i >= (a); i--)
-void solve() {
-    //logic goes here
+void solve(){
+    // code goes here
 }
 int main() {
     // input outputs are faster with this
