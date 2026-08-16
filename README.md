@@ -21,11 +21,11 @@ using namespace std;
     #define two(i)      1 << i 
 // loop dee loopz
     // go from i to n-1
-    #define range(i, n)     for (int i = 0; i < (n); i++)
+    #define range(i, n, c)     for (int i = 0; i < (n); i += c)
     // go from a to b-1
-    #define FOR(i, a, b)    for (int i = (a); i < (b); i++)
+    #define FOR(i, a, b, c)    for (int i = (a); i < (b); i += c)
     // go from b-1 to a (reversed)
-    #define ROF(i, a, b)    for (int i = (b) - 1; i >= (a); i--)
+    #define ROF(i, a, b, c)    for (int i = (b) - 1; i >= (a); i += c)
 void solve(){
     // code goes here
 }
