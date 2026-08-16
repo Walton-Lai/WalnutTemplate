@@ -15,7 +15,7 @@ using namespace std;
     using mii = map<int, int>;
     using sii = set<int>;
     using xmii = unordered_map<int, int>;
-    using xsii = unordered_set<int, int>;
+    using xsii = unordered_set<int>;
 // misc
     #define pb          push_back
     #define two(i)      1 << i 
