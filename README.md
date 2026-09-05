@@ -18,7 +18,7 @@ using namespace std;
     using xsii = unordered_set<int>;
 // misc
     #define pb          push_back
-    #define two(i)      1 << i 
+
 // loop dee loopz
     // go from i to n-1
     #define range(i, n, c)     for (int i = 0; i < (n); i += c)
